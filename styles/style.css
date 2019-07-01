@@ -1,0 +1,85 @@
+body {
+    font-size: 14px;
+    background-color: #ccc;
+  }
+  
+  @media (min-width:600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width:800px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width:1000px) {
+    body {
+      /* Never get larger than this */
+      font-size: 20px;
+    }
+  }
+.header-area{
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.img-jmbo{
+    background-image: url('imgs/imageone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    /* background-size: contain; */
+}
+#asd{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.carousel-indicators .active{
+    background-color: rgba(0,0,0,0.8);
+}
+h5{
+  font-weight:bolder;
+
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.app-text{
+  font-weight:bolder;
+
+}
+.navbar-nav .nav-item.active .nav-link{
+  text-transform:uppercase;
+  font-weight: bolder;
+  color:darkgreen;
+
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: darkgreen;
+
+}
+.pops{
+  text-decoration: none !important;
+}
+.content-span{
+  font-weight: bolder;
+}
+/*.card-content{
+  font-weight: bolder;
+  color:grey;
+}*/
